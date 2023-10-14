@@ -1,0 +1,80 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<?xml-stylesheet type="text/xsl" href="musei.xsl"?>
+
+<musei>
+    <museo nome = "Museo Archeologico Nazionale delle Marche">
+        <comune>ANCONA</comune>
+        <indirizzo>via Ferretti</indirizzo>
+        <civico>6</civico>
+        <telefono>071202602</telefono>
+        <orariApertura>Tutti i giorni 8.30 19.30. Chiuso: il lunedì, 25 dicembre, 1 gennaio, 1 maggio.</orariApertura>
+        <manufatti>
+            <manufatto numero = "1">
+                <immagine>http://www.visit.marche.it/Portals/1/Immagini/Archeologia/Ancona_guerriero_Numana.jpg</immagine>
+                <didascalia>Testa del guerriero di Numana</didascalia>
+            </manufatto>
+        
+            <manufatto numero = "2">
+                <immagine>http://www.visit.marche.it/Portals/1/Immagini/Archeologia/Ancona_uovo_struzzo.jpg</immagine>
+                <didascalia>Uovo di struzzo piceno dalla Necropoli di Pitino</didascalia>
+            </manufatto>
+        </manufatti>
+    </museo>
+
+    <museo nome = "Museo Archeologico Statale di Arcevia, Chiostro di S. Francesco">
+        <comune>ARCEVIA</comune>
+        <indirizzo>Corso Mazzini</indirizzo>
+        <civico>67</civico>
+        <telefono>7319622</telefono>
+        <orariApertura>Lun-merc-gio. 13.30 - 19.30/ mart-ven-sab-dom. 8.30 - 13.30. Chiusura: 1° Domenica del mese, 1° Gennaio, 1° Maggio, 25 Dicembre.</orariApertura>
+        <manufatti>
+            <manufatto numero = "1">
+                <immagine>http://www.visit.marche.it/Portals/1/Immagini/Archeologia/Arcevia_bronzo.jpg</immagine>
+                <didascalia>Reperti rinvenuti presso l'abitato di Monte Croce Guardia</didascalia>
+            </manufatto>
+        
+            <manufatto numero = "2">
+                <immagine>http://www.visit.marche.it/Portals/1/Immagini/Archeologia/Arcevia_fossato_Conelle.jpg</immagine>
+                <didascalia>Reperti provenienti dal fossato di Conelle</didascalia>
+            </manufatto>
+        </manufatti>
+    </museo>
+
+    <museo nome = "Museo Archeologico Statale di Ascoli Piceno">
+        <comune>ASCOLI PICENO</comune>
+        <indirizzo>Piazza Arringo</indirizzo>
+        <civico>28</civico>
+        <telefono>716258</telefono>
+        <orariApertura>8.30 - 19.30 tutti i giorni</orariApertura>
+        <manufatti>
+            <manufatto numero = "1">
+                <immagine>http://www.visit.marche.it/Portals/1/Immagini/Archeologia/Ascoli_4.jpg</immagine>
+                <didascalia>Veduta del Ponte di Cecco ad Ascoli</didascalia>
+            </manufatto>
+        
+            <manufatto numero = "2">
+                <immagine>http://www.visit.marche.it/Portals/1/Immagini/Archeologia/Ascoli_Mosaico.jpg</immagine>
+                <didascalia>Mosaico policromo con erma bifronte</didascalia>
+            </manufatto>
+        </manufatti>
+    </museo>
+
+    <museo nome = "Museo Civico Archeologico di Matelica">
+        <comune>MATELICA</comune>
+        <indirizzo>Piazza Arringo</indirizzo>
+        <civico>45</civico>
+        <telefono>3285459205</telefono>
+        <orariApertura>8.30 - 19.30 tutti i giorni</orariApertura>
+        <manufatti>
+            <manufatto numero = "1">
+                <immagine>http://www.visit.marche.it/Portals/1/Immagini/Archeologia/Matelica_globo.jpg</immagine>
+                <didascalia>Globo di Matelica</didascalia>
+            </manufatto>
+        
+            <manufatto numero = "2">
+                <immagine>http://www.visit.marche.it/Portals/1/Immagini/Archeologia/MC_07_Matelica_tomba.jpg</immagine>
+                <didascalia>Scettro proveniente dalla tomba picena di Villa Clara</didascalia>
+            </manufatto>
+        </manufatti>
+    </museo>
+</musei>

@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="musei">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="museo" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name ="comune" type="xs:string"></xs:element>
+                            <xs:element name ="indirizzo" type="xs:string"></xs:element>
+                            <xs:element name ="civico" type="xs:integer"></xs:element>
+                            <xs:element name ="telefono" type="xs:integer"></xs:element>
+                            <xs:element name ="orariApertura" type="xs:string"></xs:element>
+                            <xs:element name ="manufatti" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name ="manufatto" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name ="immagine" type="xs:string"></xs:element>
+                                                    <xs:element name ="didascalia" type="xs:string"></xs:element>
+                                                </xs:sequence>
+                                                <xs:attribute name="numero" type="xs:integer"></xs:attribute>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="nome" type="xs:string"></xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

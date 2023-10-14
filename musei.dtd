@@ -1,0 +1,13 @@
+<!ELEMENT musei (museo+)>
+<!ELEMENT museo (comune, indirizzo, civico, telefono, orariApertura, manufatti)>
+<!ATTLIST museo nome CDATA #REQUIRED>
+<!ELEMENT comune (#PCDATA)>
+<!ELEMENT indirizzo (#PCDATA)>
+<!ELEMENT civico (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT orariApertura (#PCDATA)>
+<!ELEMENT manufatti (manufatto+)>
+<!ELEMENT manufatto (immagine, didascalia)>
+<!ATTLIST manufatto numero CDATA #REQUIRED>
+<!ELEMENT immagine (#PCDATA)>
+<!ELEMENT didascalia (#PCDATA)>
