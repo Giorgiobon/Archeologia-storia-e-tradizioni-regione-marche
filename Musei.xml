@@ -1,14 +1,25 @@
 <?xml version = "1.0" encoding = "utf-8"?>
 <?xml-stylesheet type="text/xsl" href="musei.xsl"?>
-
+<!DOCTYPE musei SYSTEM "musei.dtd">
 <musei>
     <museo nome = "Museo Archeologico Nazionale delle Marche">
-        <comune>ANCONA</comune>
-        <indirizzo>via Ferretti</indirizzo>
-        <civico>6</civico>
-        <telefono>071202602</telefono>
-        <orariApertura>Tutti i giorni 8.30 19.30. Chiuso: il lunedì, 25 dicembre, 1 gennaio, 1 maggio.</orariApertura>
+        <locazione telefono = "0354512069">
+            <comune>ANCONA</comune>
+            <indirizzo>Piazza G. Garibaldi</indirizzo>
+            <civico>1</civico>
+        </locazione>
+        <orariApertura>
+            <lunedi>Chiuso</lunedi>
+            <martedi>Aperto dalle 8.30 alle 19.30</martedi>
+            <mercoledi>Aperto dalle 8.30 alle 19.30</mercoledi>
+            <giovedi>Aperto dalle 8.30 alle 19.30</giovedi>
+            <venerdi>Aperto dalle 8.30 alle 19.30</venerdi>
+            <sabato>Aperto dalle 8.30 alle 19.30</sabato>
+            <domenica>Aperto dalle 8.30 alle 19.30</domenica>
+            <dateSpeciali>CHIUSO: 25 dicembre, 1 gennaio, 1 maggio</dateSpeciali>
+        </orariApertura>
         <manufatti>
+            <classe nome = "Bonacina Giorgio">5IA</classe>
             <manufatto numero = "1">
                 <immagine>http://www.visit.marche.it/Portals/1/Immagini/Archeologia/Ancona_guerriero_Numana.jpg</immagine>
                 <didascalia>Testa del guerriero di Numana</didascalia>
@@ -22,12 +33,23 @@
     </museo>
 
     <museo nome = "Museo Archeologico Statale di Arcevia, Chiostro di S. Francesco">
-        <comune>ARCEVIA</comune>
-        <indirizzo>Corso Mazzini</indirizzo>
-        <civico>67</civico>
-        <telefono>7319622</telefono>
-        <orariApertura>Lun-merc-gio. 13.30 - 19.30/ mart-ven-sab-dom. 8.30 - 13.30. Chiusura: 1° Domenica del mese, 1° Gennaio, 1° Maggio, 25 Dicembre.</orariApertura>
+        <locazione telefono = "7319622562">
+            <comune>ARCEVIA</comune>
+            <indirizzo>Corso Mazzini</indirizzo>
+            <civico>67</civico>
+        </locazione>
+        <orariApertura>
+            <lunedi>Aperto dalle 13.30 alle 19.30</lunedi>
+            <martedi>Aperto dalle 8.30 alle 13.30</martedi>
+            <mercoledi>Aperto dalle 13.30 alle 19.30</mercoledi>
+            <giovedi>Aperto dalle 13.30 alle 19.30</giovedi>
+            <venerdi>Aperto dalle 8.30 alle 13.30</venerdi>
+            <sabato>Aperto dalle 8.30 alle 13.30</sabato>
+            <domenica>Chiuso</domenica>
+            <dateSpeciali>CHIUSO:1° Gennaio, 1° Maggio, 25 Dicembre.</dateSpeciali>
+        </orariApertura>
         <manufatti>
+            <classe nome = "Bonacina Giorgio">5IA</classe>
             <manufatto numero = "1">
                 <immagine>http://www.visit.marche.it/Portals/1/Immagini/Archeologia/Arcevia_bronzo.jpg</immagine>
                 <didascalia>Reperti rinvenuti presso l'abitato di Monte Croce Guardia</didascalia>
@@ -41,12 +63,23 @@
     </museo>
 
     <museo nome = "Museo Archeologico Statale di Ascoli Piceno">
-        <comune>ASCOLI PICENO</comune>
-        <indirizzo>Piazza Arringo</indirizzo>
-        <civico>28</civico>
-        <telefono>716258</telefono>
-        <orariApertura>8.30 - 19.30 tutti i giorni</orariApertura>
+        <locazione telefono = "7716258562">
+            <comune>ASCOLI PICENO</comune>
+            <indirizzo>Piazza Arringo</indirizzo>
+            <civico>28</civico>
+        </locazione>
+        <orariApertura>
+            <lunedi>Aperto dalle 8.30 alle 19.30</lunedi>
+            <martedi>Aperto dalle 8.30 alle 19.30</martedi>
+            <mercoledi>Aperto dalle 8.30 alle 19.30</mercoledi>
+            <giovedi>Aperto dalle 8.30 alle 19.30</giovedi>
+            <venerdi>Aperto dalle 8.30 alle 19.30</venerdi>
+            <sabato>Aperto dalle 8.30 alle 19.30</sabato>
+            <domenica>Aperto dalle 8.30 alle 19.30</domenica>
+            <dateSpeciali>Nessuna</dateSpeciali>
+        </orariApertura>
         <manufatti>
+            <classe nome = "Bonacina Giorgio">5IA</classe>
             <manufatto numero = "1">
                 <immagine>http://www.visit.marche.it/Portals/1/Immagini/Archeologia/Ascoli_4.jpg</immagine>
                 <didascalia>Veduta del Ponte di Cecco ad Ascoli</didascalia>
@@ -60,12 +93,23 @@
     </museo>
 
     <museo nome = "Museo Civico Archeologico di Matelica">
-        <comune>MATELICA</comune>
-        <indirizzo>Piazza Arringo</indirizzo>
-        <civico>45</civico>
-        <telefono>3285459205</telefono>
-        <orariApertura>8.30 - 19.30 tutti i giorni</orariApertura>
+        <locazione telefono = "3285459205">
+            <comune>MATELICA</comune>
+            <indirizzo>Piazza Arringo</indirizzo>
+            <civico>45</civico>
+        </locazione>
+        <orariApertura>
+            <lunedi>Aperto dalle 8.30 alle 19.30</lunedi>
+            <martedi>Aperto dalle 8.30 alle 19.30</martedi>
+            <mercoledi>Aperto dalle 8.30 alle 19.30</mercoledi>
+            <giovedi>Aperto dalle 8.30 alle 19.30</giovedi>
+            <venerdi>Aperto dalle 8.30 alle 19.30</venerdi>
+            <sabato>Aperto dalle 8.30 alle 19.30</sabato>
+            <domenica>Aperto dalle 8.30 alle 19.30</domenica>
+            <dateSpeciali>Nessuna</dateSpeciali>
+        </orariApertura>
         <manufatti>
+            <classe nome = "Bonacina Giorgio">5IA</classe>
             <manufatto numero = "1">
                 <immagine>http://www.visit.marche.it/Portals/1/Immagini/Archeologia/Matelica_globo.jpg</immagine>
                 <didascalia>Globo di Matelica</didascalia>

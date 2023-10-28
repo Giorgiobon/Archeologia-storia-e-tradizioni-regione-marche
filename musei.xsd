@@ -7,14 +7,42 @@
                 <xs:element name="museo" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name ="comune" type="xs:string"></xs:element>
-                            <xs:element name ="indirizzo" type="xs:string"></xs:element>
-                            <xs:element name ="civico" type="xs:integer"></xs:element>
-                            <xs:element name ="telefono" type="xs:integer"></xs:element>
-                            <xs:element name ="orariApertura" type="xs:string"></xs:element>
+                            <xs:element name="locazione" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name ="comune" type="xs:string"></xs:element>
+                                        <xs:element name ="indirizzo" type="xs:string"></xs:element>
+                                        <xs:element name ="civico" type="xs:integer"></xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="telefono" type="xs:string"></xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name ="orariApertura" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name ="lunedi" type="xs:string"></xs:element>
+                                        <xs:element name ="martedi" type="xs:string"></xs:element>
+                                        <xs:element name ="mercoledi" type="xs:string"></xs:element>
+                                        <xs:element name ="giovedi" type="xs:string"></xs:element>
+                                        <xs:element name ="venerdi" type="xs:string"></xs:element>
+                                        <xs:element name ="sabato" type="xs:string"></xs:element>
+                                        <xs:element name ="domenica" type="xs:string"></xs:element>
+                                        <xs:element name ="dateSpeciali" type="xs:string"></xs:element>   
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
                             <xs:element name ="manufatti" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:sequence>
+                                        <xs:element name="classe">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute name="nome" type="xs:string"></xs:attribute>
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
                                         <xs:element name ="manufatto" maxOccurs="unbounded">
                                             <xs:complexType>
                                                 <xs:sequence>

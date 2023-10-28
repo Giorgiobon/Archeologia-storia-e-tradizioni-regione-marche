@@ -1,12 +1,23 @@
 <!ELEMENT musei (museo+)>
-<!ELEMENT museo (comune, indirizzo, civico, telefono, orariApertura, manufatti)>
+<!ELEMENT museo (locazione, orariApertura+, manufatti)>
 <!ATTLIST museo nome CDATA #REQUIRED>
+<!ELEMENT locazione (comune, indirizzo, civico)>
+<!ATTLIST locazione telefono CDATA #REQUIRED>
 <!ELEMENT comune (#PCDATA)>
 <!ELEMENT indirizzo (#PCDATA)>
 <!ELEMENT civico (#PCDATA)>
-<!ELEMENT telefono (#PCDATA)>
-<!ELEMENT orariApertura (#PCDATA)>
-<!ELEMENT manufatti (manufatto+)>
+<!ELEMENT orariApertura (lunedi, martedi, mercoledi, giovedi, venerdi, sabato, domenica, dateSpeciali)>
+<!ELEMENT lunedi (#PCDATA)>
+<!ELEMENT martedi (#PCDATA)>
+<!ELEMENT mercoledi (#PCDATA)>
+<!ELEMENT giovedi (#PCDATA)>
+<!ELEMENT venerdi (#PCDATA)>
+<!ELEMENT sabato (#PCDATA)>
+<!ELEMENT domenica (#PCDATA)>
+<!ELEMENT dateSpeciali (#PCDATA)>
+<!ELEMENT manufatti (classe, manufatto+)>
+<!ELEMENT classe (#PCDATA)>
+<!ATTLIST classe nome CDATA #REQUIRED>
 <!ELEMENT manufatto (immagine, didascalia)>
 <!ATTLIST manufatto numero CDATA #REQUIRED>
 <!ELEMENT immagine (#PCDATA)>
